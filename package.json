@@ -4,14 +4,25 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build --webpack",
     "start": "next start",
     "lint": "eslint"
   },
   "dependencies": {
+    "@ai-sdk/anthropic": "^2.0.17",
+    "@ai-sdk/openai": "^2.0.24",
+    "@supabase/supabase-js": "^2.50.0",
+    "ai": "^5.0.33",
+    "metaapi.cloud-sdk": "^29.0.3",
     "next": "16.2.4",
+    "newsapi": "^2.4.1",
+    "pino": "^9.0.0",
+    "lightweight-charts": "^5.0.9",
     "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react-dom": "19.2.4",
+    "technicalindicators": "^3.1.0",
+    "twitter-api-v2": "^1.27.0",
+    "zod": "^4.1.5"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
@@ -20,6 +31,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.2.4",
+    "pino-pretty": "^11.0.0",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
